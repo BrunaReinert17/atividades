@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_KzhiUAxwEe6VPJ8qJDziPA">
+  <eAnnotations xmi:id="_k4bxgAx3Ee6VPJ8qJDziPA" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_k4bxgQx3Ee6VPJ8qJDziPA" source="visual-filters/hideNonPublicElements" references="_mVSOMwxwEe6VPJ8qJDziPA _mX2aAwxwEe6VPJ8qJDziPA">
+      <details xmi:id="_k4bxggx3Ee6VPJ8qJDziPA" key="isActive" value="true"/>
+    </contents>
+  </eAnnotations>
+  <modelElement href="estudodecaso.uml#_Kyb9MAxwEe6VPJ8qJDziPA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mUgyIAxwEe6VPJ8qJDziPA" sourceAnchor="169.0,0.0" targetAnchor="338.0,97.0" target="_mVSOMAxwEe6VPJ8qJDziPA" source="_mVSOMAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_Lt78IQxwEe6VPJ8qJDziPA"/>
+    <bendpoints xmi:id="_nGIcUAxwEe6VPJ8qJDziPA" sourceY="-85" targetX="-169" targetY="-182"/>
+    <bendpoints xmi:id="_nGJDYAxwEe6VPJ8qJDziPA" sourceX="312" sourceY="-85" targetX="143" targetY="-182"/>
+    <bendpoints xmi:id="_nGJDYQxwEe6VPJ8qJDziPA" sourceX="312" sourceY="97" targetX="143"/>
+    <stereotypes xmi:id="_mVN8wgxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_Lt9xUAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mVMuoAxwEe6VPJ8qJDziPA" text="">
+      <visualProperties xmi:id="_nGN74AxwEe6VPJ8qJDziPA" position="-294.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mVN8wAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_Lt78IgxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGMtwQxwEe6VPJ8qJDziPA" position="-20.5,-50.0"/>
+      <visibility xmi:id="_mVPK4QxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVPK4AxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mVN8wQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="enderecoDao" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq4BEAxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGOi8AxwEe6VPJ8qJDziPA" position="5.5,-48.5"/>
+      <visibility xmi:id="_mVPK4wxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVPK4gxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mVRnIAxwEe6VPJ8qJDziPA" source="_mVSOMAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_Lt6uAAxwEe6VPJ8qJDziPA"/>
+    <stereotypes xmi:id="_mVRnIQxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_Lt78IAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mVRnIgxwEe6VPJ8qJDziPA" text=""/>
+    <sourceRole xmi:id="_mVRnIwxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_Lt6uAQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVRnJAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVRnJQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mVRnJgxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="listaEndereco" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq09wAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVRnJwxwEe6VPJ8qJDziPA" label="-"/>
+      <cardinality xmi:id="_mVRnKAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mXPWAAxwEe6VPJ8qJDziPA" sourceAnchor="179.0,0.0" targetAnchor="357.0,97.0" target="_mX2aAAxwEe6VPJ8qJDziPA" source="_mX2aAAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_Lt_mgQxwEe6VPJ8qJDziPA"/>
+    <bendpoints xmi:id="_nGJqcQxwEe6VPJ8qJDziPA" sourceY="-85" targetX="-178" targetY="-182"/>
+    <bendpoints xmi:id="_nGJqcgxwEe6VPJ8qJDziPA" sourceX="312" sourceY="-85" targetX="134" targetY="-182"/>
+    <bendpoints xmi:id="_nGJqcwxwEe6VPJ8qJDziPA" sourceX="312" sourceY="97" targetX="134"/>
+    <stereotypes xmi:id="_mXzWsQxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_LuANkAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mXyvoAxwEe6VPJ8qJDziPA" text="">
+      <visualProperties xmi:id="_nGQYIAxwEe6VPJ8qJDziPA" position="-294.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mXyvoQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_Lt_mggxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGPxEAxwEe6VPJ8qJDziPA" position="-20.5,-50.0"/>
+      <visibility xmi:id="_mXz9wQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mXz9wAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mXzWsAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="funcionarioDao" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq7EYgxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGQ_MAxwEe6VPJ8qJDziPA" position="5.5,-48.5"/>
+      <visibility xmi:id="_mX0k0QxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX0k0AxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mXw6cAxwEe6VPJ8qJDziPA" source="_mX2aAAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_Lt9xUQxwEe6VPJ8qJDziPA"/>
+    <stereotypes xmi:id="_mXzWtQxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_Lt_mgAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mXzWsgxwEe6VPJ8qJDziPA" text=""/>
+    <sourceRole xmi:id="_mXzWswxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_Lt9xUgxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX0k1AxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX0k0wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mXzWtAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="listaFuncionario" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq52QAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX1L4AxwEe6VPJ8qJDziPA" label="-"/>
+      <cardinality xmi:id="_mX0k1QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mYX-cAxwEe6VPJ8qJDziPA" sourceAnchor="0.0,97.0" targetAnchor="848.0,88.0" target="_mZRWUAxwEe6VPJ8qJDziPA" source="_mSlfgAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LtWGQAxwEe6VPJ8qJDziPA"/>
+    <nameVisual xmi:id="_mY4UwAxwEe6VPJ8qJDziPA" text="">
+      <visualProperties xmi:id="_nGMGsAxwEe6VPJ8qJDziPA" position="-33.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mY4UwQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="endereco" navigable="true">
+      <modelElement href="estudodecaso.uml#_LrE1YAxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGLfoAxwEe6VPJ8qJDziPA" position="-69.0,3.5"/>
+      <visibility xmi:id="_mZOTAQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZOTAAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mY470AxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LtWGQQxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGMtwAxwEe6VPJ8qJDziPA" position="5.5,-48.500000000000114"/>
+      <visibility xmi:id="_mZOTAwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZOTAgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mY470QxwEe6VPJ8qJDziPA" source="_mZRWUAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LuIJYQxwEe6VPJ8qJDziPA"/>
+    <stereotypes xmi:id="_mZPhIQxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_LuKloAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mZOTBAxwEe6VPJ8qJDziPA" text=""/>
+    <sourceRole xmi:id="_mZOTBQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LuIJYgxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mZQvQQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZQvQAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mZPhIAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="listReserva" navigable="true">
+      <modelElement href="estudodecaso.uml#_LrE1YQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mZQvQwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZQvQgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_maHD0AxwEe6VPJ8qJDziPA" sourceAnchor="164.0,0.0" targetAnchor="328.0,88.0" target="_mboGwAxwEe6VPJ8qJDziPA" source="_mboGwAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LuFGEAxwEe6VPJ8qJDziPA"/>
+    <bendpoints xmi:id="_nGKRggxwEe6VPJ8qJDziPA" sourceY="-81" targetX="-164" targetY="-169"/>
+    <bendpoints xmi:id="_nGK4kAxwEe6VPJ8qJDziPA" sourceX="299" sourceY="-81" targetX="135" targetY="-169"/>
+    <bendpoints xmi:id="_nGK4kQxwEe6VPJ8qJDziPA" sourceX="299" sourceY="88" targetX="135"/>
+    <stereotypes xmi:id="_mbj1UgxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_LuGUMAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mbjOQAxwEe6VPJ8qJDziPA" text="">
+      <visualProperties xmi:id="_nGS0YQxwEe6VPJ8qJDziPA" position="-281.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mbj1UAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LuFGEQxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGS0YAxwEe6VPJ8qJDziPA" position="-20.5,-49.5"/>
+      <visibility xmi:id="_mblqgQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mblqgAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mbj1UQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="hospedeDao" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq-HsAxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGTbcAxwEe6VPJ8qJDziPA" position="5.5,-48.5"/>
+      <visibility xmi:id="_mblqgwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mblqggxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mbCQ4AxwEe6VPJ8qJDziPA" source="_mboGwAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LuA0oAxwEe6VPJ8qJDziPA"/>
+    <stereotypes xmi:id="_mblDcAxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_LuEfAAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mbj1UwxwEe6VPJ8qJDziPA" text=""/>
+    <sourceRole xmi:id="_mbkcYAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LuA0oQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mbmRkgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mbmRkQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mbkcYQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="listaHospede" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq8SgAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mbmRlAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mbmRkwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mcYUsAxwEe6VPJ8qJDziPA" sourceAnchor="307.0,0.0" targetAnchor="184.0,136.0" superClass="_mdoR4AxwEe6VPJ8qJDziPA" subClass="_mWgWMAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LnG7YAxwEe6VPJ8qJDziPA"/>
+    <bendpoints xmi:id="_nGJDYgxwEe6VPJ8qJDziPA" sourceY="-19" targetX="338" targetY="36"/>
+    <bendpoints xmi:id="_nGJqcAxwEe6VPJ8qJDziPA" sourceX="-338" sourceY="-19" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mdLl8AxwEe6VPJ8qJDziPA" sourceAnchor="424.0,0.0" targetAnchor="184.0,136.0" superClass="_mdoR4AxwEe6VPJ8qJDziPA" subClass="_mZRWUAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LnNpEAxwEe6VPJ8qJDziPA"/>
+    <bendpoints xmi:id="_nGKRgAxwEe6VPJ8qJDziPA" sourceY="-172" targetX="-26" targetY="36"/>
+    <bendpoints xmi:id="_nGKRgQxwEe6VPJ8qJDziPA" sourceX="26" sourceY="-172" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mfDOMAxwEe6VPJ8qJDziPA" sourceAnchor="424.0,175.0" targetAnchor="94.0,0.0" target="_mgTLYAxwEe6VPJ8qJDziPA" source="_mZRWUAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LtXUYAxwEe6VPJ8qJDziPA"/>
+    <nameVisual xmi:id="_mgRWMAxwEe6VPJ8qJDziPA" text="">
+      <visualProperties xmi:id="_nGRmQAxwEe6VPJ8qJDziPA" position="-5.5,-9.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mgRWMQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="hospede" navigable="true">
+      <modelElement href="estudodecaso.uml#_LrH4sgxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGQ_MQxwEe6VPJ8qJDziPA" position="9.0,5.5"/>
+      <visibility xmi:id="_mgSkUQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgSkUAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mgRWMgxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LtXUYQxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGSNUAxwEe6VPJ8qJDziPA" position="-20.5,-50.0"/>
+      <visibility xmi:id="_mgSkUwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgSkUgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mrAmkAxwEe6VPJ8qJDziPA" sourceAnchor="165.0,0.0" targetAnchor="329.0,88.0" target="_mr1tAAxwEe6VPJ8qJDziPA" source="_mr1tAAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LuHiUAxwEe6VPJ8qJDziPA"/>
+    <bendpoints xmi:id="_nGK4kgxwEe6VPJ8qJDziPA" sourceY="-81" targetX="-164" targetY="-169"/>
+    <bendpoints xmi:id="_nGK4kwxwEe6VPJ8qJDziPA" sourceX="273" sourceY="-81" targetX="109" targetY="-169"/>
+    <bendpoints xmi:id="_nGK4lAxwEe6VPJ8qJDziPA" sourceX="273" sourceY="88" targetX="109"/>
+    <stereotypes xmi:id="_mrzQwgxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_LuIJYAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mrypsAxwEe6VPJ8qJDziPA" text="">
+      <visualProperties xmi:id="_nGUpkAxwEe6VPJ8qJDziPA" position="-255.0,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mrzQwAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LuHiUQxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGUCgAxwEe6VPJ8qJDziPA" position="-20.5,-49.5"/>
+      <visibility xmi:id="_mrz30QxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mrz30AxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mrzQwQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="reservaDao" navigable="true">
+      <modelElement href="estudodecaso.uml#_LrAj8AxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_nGUpkQxwEe6VPJ8qJDziPA" position="5.5,-48.5"/>
+      <visibility xmi:id="_mrz30wxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mrz30gxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mrd5kAxwEe6VPJ8qJDziPA" source="_mr1tAAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LuGUMQxwEe6VPJ8qJDziPA"/>
+    <stereotypes xmi:id="_mrzQxgxwEe6VPJ8qJDziPA" name="Reference">
+      <modelElement href="estudodecaso.uml#_LuG7QAxwEe6VPJ8qJDziPA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mrzQwwxwEe6VPJ8qJDziPA" text=""/>
+    <sourceRole xmi:id="_mrzQxAxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="">
+      <modelElement href="estudodecaso.uml#_LuGUMgxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mr0e4gxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr0e4QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mrzQxQxwEe6VPJ8qJDziPA" aggregationKind="NONE" name="listaReserva" navigable="true">
+      <modelElement href="estudodecaso.uml#_Lq-uwAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mr0e5AxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr0e4wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mSlfgAxwEe6VPJ8qJDziPA" name="Endereco" associationsOut="_mYX-cAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mSlfgQxwEe6VPJ8qJDziPA" position="1056.0,366.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mSlfggxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mSlfgwxwEe6VPJ8qJDziPA" name="Cep">
+      <modelElement href="estudodecaso.uml#_LrByEAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mSlfhAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfhQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mSlfhgxwEe6VPJ8qJDziPA" name="Long">
+        <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mSlfhwxwEe6VPJ8qJDziPA" name="estado">
+      <modelElement href="estudodecaso.uml#_LrByEQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mSlfiAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfiQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mSlfigxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mSlfiwxwEe6VPJ8qJDziPA" name="cidade">
+      <modelElement href="estudodecaso.uml#_LrCZIAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mSlfjAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfjQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mSlfjgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mSlfjwxwEe6VPJ8qJDziPA" name="bairro">
+      <modelElement href="estudodecaso.uml#_LrCZIQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mSlfkAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfkQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mSlfkgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mSlfkwxwEe6VPJ8qJDziPA" name="rua">
+      <modelElement href="estudodecaso.uml#_LrDAMAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mSlflAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlflQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mSlflgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mSlflwxwEe6VPJ8qJDziPA" name="Endereco">
+      <modelElement href="estudodecaso.uml#_LciqIAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mSlfmAxwEe6VPJ8qJDziPA" keyword="create"/>
+      <stereotypes xmi:id="_mSlfmQxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lcj4QAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mSlfmgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfmwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mSlfnAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LckfUAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mSlfnQxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mSlfngxwEe6VPJ8qJDziPA" name="Endereco">
+      <modelElement href="estudodecaso.uml#_LqBFcAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mSlfnwxwEe6VPJ8qJDziPA" keyword="create"/>
+      <visibility xmi:id="_mSlfoAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfoQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mSlfogxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LqBFdAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mSlfowxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mSlfpAxwEe6VPJ8qJDziPA" name="cep">
+        <modelElement href="estudodecaso.uml#_LqBFcQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mSlfpQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mSlfpgxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mSlfpwxwEe6VPJ8qJDziPA" name="Endereco">
+      <modelElement href="estudodecaso.uml#_LqBsgAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mSlfqAxwEe6VPJ8qJDziPA" keyword="create"/>
+      <visibility xmi:id="_mSlfqQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mSlfqgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mSlfqwxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LqCTlQxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mSlfrAxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mSlfrQxwEe6VPJ8qJDziPA" name="cep">
+        <modelElement href="estudodecaso.uml#_LqBsgQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mSlfrgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mSlfrwxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mSlfsAxwEe6VPJ8qJDziPA" name="estado">
+        <modelElement href="estudodecaso.uml#_LqBsggxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mSlfsQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mSlfsgxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mSlfswxwEe6VPJ8qJDziPA" name="cidade">
+        <modelElement href="estudodecaso.uml#_LqCTkAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mSlftAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mSlftQxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mSlftgxwEe6VPJ8qJDziPA" name="bairro">
+        <modelElement href="estudodecaso.uml#_LqCTkQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mSlftwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mSlfuAxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mSlfuQxwEe6VPJ8qJDziPA" name="rua">
+        <modelElement href="estudodecaso.uml#_LqCTkgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mSlfugxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mSlfuwxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mWgWMAxwEe6VPJ8qJDziPA" name="Funcionario" generalizations="_mcYUsAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mWgWMQxwEe6VPJ8qJDziPA" position="492.0,222.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mWgWMgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mWgWMwxwEe6VPJ8qJDziPA" name="cargo">
+      <modelElement href="estudodecaso.uml#_LrDnQAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mWgWNAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mWgWNQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mWgWNgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mWgWNwxwEe6VPJ8qJDziPA" name="fraseSecreta">
+      <modelElement href="estudodecaso.uml#_LrDnQQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mWgWOAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mWgWOQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mWgWOgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mWgWOwxwEe6VPJ8qJDziPA" name="Funcionario">
+      <modelElement href="estudodecaso.uml#_Lcp-4AxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mWgWPAxwEe6VPJ8qJDziPA" keyword="create"/>
+      <stereotypes xmi:id="_mWgWPQxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lcql8AxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mWgWPgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mWgWPwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mWgWQAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lcql8QxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mWgWQQxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mWgWQgxwEe6VPJ8qJDziPA" name="Funcionario">
+      <modelElement href="estudodecaso.uml#_LqEIwAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mWgWQwxwEe6VPJ8qJDziPA" keyword="create"/>
+      <visibility xmi:id="_mWgWRAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mWgWRQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mWgWRgxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LqFW4AxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mWgWRwxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mWgWSAxwEe6VPJ8qJDziPA" name="nome">
+        <modelElement href="estudodecaso.uml#_LqEIwQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mWgWSQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWgWSgxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mWgWSwxwEe6VPJ8qJDziPA" name="cpf">
+        <modelElement href="estudodecaso.uml#_LqEv0AxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mWgWTAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWgWTQxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mWgWTgxwEe6VPJ8qJDziPA" name="email">
+        <modelElement href="estudodecaso.uml#_LqEv0QxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mWgWTwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWgWUAxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mWgWUQxwEe6VPJ8qJDziPA" name="cargo">
+        <modelElement href="estudodecaso.uml#_LqEv0gxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mWgWUgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWgWUwxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mWgWVAxwEe6VPJ8qJDziPA" name="fraseSecreta">
+        <modelElement href="estudodecaso.uml#_LqEv0wxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mWgWVQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mWgWVgxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mZRWUAxwEe6VPJ8qJDziPA" name="Hospede" associationsIn="_mYX-cAxwEe6VPJ8qJDziPA" associationsOut="_mY470QxwEe6VPJ8qJDziPA _mfDOMAxwEe6VPJ8qJDziPA" generalizations="_mdLl8AxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mZRWUQxwEe6VPJ8qJDziPA" position="11.0,375.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mZRWUgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mZRWUwxwEe6VPJ8qJDziPA" name="dataNascimento">
+      <modelElement href="estudodecaso.uml#_LrEOUAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mZRWVAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZRWVQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mZRWVgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mZRWVwxwEe6VPJ8qJDziPA" name="telefone">
+      <modelElement href="estudodecaso.uml#_LrEOUQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mZRWWAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZRWWQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mZRWWgxwEe6VPJ8qJDziPA" name="Long">
+        <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mZRWWwxwEe6VPJ8qJDziPA" name="endereco">
+      <modelElement href="estudodecaso.uml#_LrE1YAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mZRWXAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZRWXQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mZRWXgxwEe6VPJ8qJDziPA" name="Endereco">
+        <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mZRWXwxwEe6VPJ8qJDziPA" name="listReserva">
+      <modelElement href="estudodecaso.uml#_LrE1YQxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mZRWYAxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_LrFccAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mZRWYQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZRWYgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mZRWYwxwEe6VPJ8qJDziPA" name="ArrayList">
+        <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mZRWZAxwEe6VPJ8qJDziPA" name="Hospede">
+      <modelElement href="estudodecaso.uml#_LcuQUAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mZRWZQxwEe6VPJ8qJDziPA" keyword="create"/>
+      <stereotypes xmi:id="_mZRWZgxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_LcvecAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mZRWZwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZRWaAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mZRWaQxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LcvecQxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mZRWagxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mZRWawxwEe6VPJ8qJDziPA" name="Hospede">
+      <modelElement href="estudodecaso.uml#_LnJXoAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mZRWbAxwEe6VPJ8qJDziPA" keyword="create"/>
+      <stereotypes xmi:id="_mZRWbQxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_LnKlwAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mZRWbgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZRWbwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mZRWcAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LnKlwQxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mZRWcQxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mZRWcgxwEe6VPJ8qJDziPA" name="string">
+        <modelElement href="estudodecaso.uml#_LnJXoQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZRWcwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZRWdAxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZRWdQxwEe6VPJ8qJDziPA" name="l">
+        <modelElement href="estudodecaso.uml#_LnJXogxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZRWdgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZRWdwxwEe6VPJ8qJDziPA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZRWeAxwEe6VPJ8qJDziPA" name="string2">
+        <modelElement href="estudodecaso.uml#_LnJXowxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZRWeQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZRWegxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZRWewxwEe6VPJ8qJDziPA" name="i">
+        <modelElement href="estudodecaso.uml#_LnJXpAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9YAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9YQxwEe6VPJ8qJDziPA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9YgxwEe6VPJ8qJDziPA" name="m">
+        <modelElement href="estudodecaso.uml#_LnJXpQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9YwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9ZAxwEe6VPJ8qJDziPA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9ZQxwEe6VPJ8qJDziPA" name="endereco2">
+        <modelElement href="estudodecaso.uml#_LnJ-sAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9ZgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9ZwxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mZR9aAxwEe6VPJ8qJDziPA" name="Hospede">
+      <modelElement href="estudodecaso.uml#_LqHMEAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mZR9aQxwEe6VPJ8qJDziPA" keyword="create"/>
+      <visibility xmi:id="_mZR9agxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZR9awxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mZR9bAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LqHzJgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mZR9bQxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mZR9bgxwEe6VPJ8qJDziPA" name="nome">
+        <modelElement href="estudodecaso.uml#_LqHMEQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9bwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9cAxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9cQxwEe6VPJ8qJDziPA" name="cpf">
+        <modelElement href="estudodecaso.uml#_LqHMEgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9cgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9cwxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9dAxwEe6VPJ8qJDziPA" name="email">
+        <modelElement href="estudodecaso.uml#_LqHzIAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9dQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9dgxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9dwxwEe6VPJ8qJDziPA" name="dataNascimento">
+        <modelElement href="estudodecaso.uml#_LqHzIQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9eAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9eQxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9egxwEe6VPJ8qJDziPA" name="telefone">
+        <modelElement href="estudodecaso.uml#_LqHzIgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9ewxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9fAxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9fQxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_LqHzIwxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9fgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9fwxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mZR9gAxwEe6VPJ8qJDziPA" name="Hospede">
+      <modelElement href="estudodecaso.uml#_LqJBQAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mZR9gQxwEe6VPJ8qJDziPA" keyword="create"/>
+      <visibility xmi:id="_mZR9ggxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mZR9gwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mZR9hAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LqJoVwxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mZR9hQxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mZR9hgxwEe6VPJ8qJDziPA" name="nome">
+        <modelElement href="estudodecaso.uml#_LqJBQQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9hwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9iAxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9iQxwEe6VPJ8qJDziPA" name="cpf">
+        <modelElement href="estudodecaso.uml#_LqJBQgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9igxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9iwxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9jAxwEe6VPJ8qJDziPA" name="email">
+        <modelElement href="estudodecaso.uml#_LqJoUAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9jQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9jgxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9jwxwEe6VPJ8qJDziPA" name="dataNascimento">
+        <modelElement href="estudodecaso.uml#_LqJoUQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9kAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9kQxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9kgxwEe6VPJ8qJDziPA" name="telefone">
+        <modelElement href="estudodecaso.uml#_LqJoUgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9kwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9lAxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9lQxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_LqJoUwxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9lgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9lwxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mZR9mAxwEe6VPJ8qJDziPA" name="listReserva">
+        <modelElement href="estudodecaso.uml#_LqJoVAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mZR9mQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mZR9mgxwEe6VPJ8qJDziPA" name="ArrayList">
+          <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mboGwAxwEe6VPJ8qJDziPA" name="HospedeDao" associationsIn="_maHD0AxwEe6VPJ8qJDziPA" associationsOut="_maHD0AxwEe6VPJ8qJDziPA _mbCQ4AxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LcNS8AxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mboGwQxwEe6VPJ8qJDziPA" position="11.0,1441.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mboGwgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mboGwwxwEe6VPJ8qJDziPA" name="listaHospede" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq8SgAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mboGxAxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq85kAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mboGxQxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_Lq9goAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mboGxgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboGxwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mboGyAxwEe6VPJ8qJDziPA" name="ArrayList">
+        <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mboGyQxwEe6VPJ8qJDziPA" name="hospedeDao" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq-HsAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mboGygxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq-HsQxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mboGywxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboGzAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mboGzQxwEe6VPJ8qJDziPA" name="HospedeDao">
+        <modelElement href="estudodecaso.uml#_LcNS8AxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mboGzgxwEe6VPJ8qJDziPA" name="getIntancia" staticOperation="true">
+      <modelElement href="estudodecaso.uml#_LcOhEAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mboGzwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboG0AxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mboG0QxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm6uIAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mboG0gxwEe6VPJ8qJDziPA" name="HospedeDao">
+          <modelElement href="estudodecaso.uml#_LcNS8AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mboG0wxwEe6VPJ8qJDziPA" name="listaHospede">
+      <modelElement href="estudodecaso.uml#_LcQWQAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mboG1AxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_LcTZkAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mboG1QxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboG1gxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mboG1wxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lp-CIAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mboG2AxwEe6VPJ8qJDziPA" name="ArrayList">
+          <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mboG2QxwEe6VPJ8qJDziPA" name="inserirHospede">
+      <modelElement href="estudodecaso.uml#_Lm7VMAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mboG2gxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboG2wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mboG3AxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm7VMgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mboG3QxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mboG3gxwEe6VPJ8qJDziPA" name="hospede">
+        <modelElement href="estudodecaso.uml#_Lm7VMQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mboG3wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mboG4AxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mboG4QxwEe6VPJ8qJDziPA" name="deletarHospede">
+      <modelElement href="estudodecaso.uml#_Lm78QAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mboG4gxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboG4wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mboG5AxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm8jUAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mboG5QxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mboG5gxwEe6VPJ8qJDziPA" name="hospede">
+        <modelElement href="estudodecaso.uml#_Lm78QQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mboG5wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mboG6AxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mboG6QxwEe6VPJ8qJDziPA" name="alterarHospede">
+      <modelElement href="estudodecaso.uml#_Lm8jUQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mboG6gxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboG6wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mboG7AxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm9KYAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mboG7QxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mboG7gxwEe6VPJ8qJDziPA" name="hospede">
+        <modelElement href="estudodecaso.uml#_Lm8jUgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mboG7wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mboG8AxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mboG8QxwEe6VPJ8qJDziPA" name="consultarHospede">
+      <modelElement href="estudodecaso.uml#_Lm9KYQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mboG8gxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mboG8wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mboG9AxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm9xcAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mboG9QxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mboG9gxwEe6VPJ8qJDziPA" name="hospede">
+        <modelElement href="estudodecaso.uml#_Lm9KYgxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mboG9wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mboG-AxwEe6VPJ8qJDziPA" name="Hospede">
+          <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mdoR4AxwEe6VPJ8qJDziPA" name="Pessoa" abstractClass="true" subclassedBy="_mcYUsAxwEe6VPJ8qJDziPA _mdLl8AxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LdDngAxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mdoR4QxwEe6VPJ8qJDziPA" position="277.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mdoR4gxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mdoR4wxwEe6VPJ8qJDziPA" name="nome">
+      <modelElement href="estudodecaso.uml#_LrGqkAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mdoR5AxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mdoR5QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mdoR5gxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mdoR5wxwEe6VPJ8qJDziPA" name="cpf">
+      <modelElement href="estudodecaso.uml#_LrGqkQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mdoR6AxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mdoR6QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mdoR6gxwEe6VPJ8qJDziPA" name="Long">
+        <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mdoR6wxwEe6VPJ8qJDziPA" name="email">
+      <modelElement href="estudodecaso.uml#_LrHRoAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mdoR7AxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mdoR7QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mdoR7gxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mdoR7wxwEe6VPJ8qJDziPA" name="Pessoa">
+      <modelElement href="estudodecaso.uml#_LdE1oAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mdoR8AxwEe6VPJ8qJDziPA" keyword="create"/>
+      <stereotypes xmi:id="_mdoR8QxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_LdFcsgxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mdoR8gxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mdoR8wxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mdoR9AxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LdFcswxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mdoR9QxwEe6VPJ8qJDziPA" name="Pessoa">
+          <modelElement href="estudodecaso.uml#_LdDngAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mdoR9gxwEe6VPJ8qJDziPA" name="Pessoa">
+      <modelElement href="estudodecaso.uml#_LqMroAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mdoR9wxwEe6VPJ8qJDziPA" keyword="create"/>
+      <visibility xmi:id="_mdoR-AxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mdoR-QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mdoR-gxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LqNStAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mdoR-wxwEe6VPJ8qJDziPA" name="Pessoa">
+          <modelElement href="estudodecaso.uml#_LdDngAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mdoR_AxwEe6VPJ8qJDziPA" name="nome">
+        <modelElement href="estudodecaso.uml#_LqMroQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mdoR_QxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mdoR_gxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mdoR_wxwEe6VPJ8qJDziPA" name="cpf">
+        <modelElement href="estudodecaso.uml#_LqNSsAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mdoSAAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mdoSAQxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mdoSAgxwEe6VPJ8qJDziPA" name="email">
+        <modelElement href="estudodecaso.uml#_LqNSsQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mdoSAwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mdoSBAxwEe6VPJ8qJDziPA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mgTLYAxwEe6VPJ8qJDziPA" name="Reserva" associationsIn="_mfDOMAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LdH48AxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mgTLYQxwEe6VPJ8qJDziPA" position="341.0,743.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mgTLYgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mgTLYwxwEe6VPJ8qJDziPA" name="id">
+      <modelElement href="estudodecaso.uml#_LrH4sAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLZAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLZQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLZgxwEe6VPJ8qJDziPA" name="Long">
+        <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLZwxwEe6VPJ8qJDziPA" name="codigoQuarto">
+      <modelElement href="estudodecaso.uml#_LrH4sQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLaAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLaQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLagxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLawxwEe6VPJ8qJDziPA" name="hospede">
+      <modelElement href="estudodecaso.uml#_LrH4sgxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLbAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLbQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLbgxwEe6VPJ8qJDziPA" name="Hospede">
+        <modelElement href="estudodecaso.uml#_LctCMAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLbwxwEe6VPJ8qJDziPA" name="diaria">
+      <modelElement href="estudodecaso.uml#_LrIfwAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLcAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLcQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLcgxwEe6VPJ8qJDziPA" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLcwxwEe6VPJ8qJDziPA" name="servicoQuarto">
+      <modelElement href="estudodecaso.uml#_LrIfwQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLdAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLdQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLdgxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLdwxwEe6VPJ8qJDziPA" name="quantidadeHospede">
+      <modelElement href="estudodecaso.uml#_LrJG0AxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLeAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLeQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLegxwEe6VPJ8qJDziPA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLewxwEe6VPJ8qJDziPA" name="quantidadeDedias">
+      <modelElement href="estudodecaso.uml#_LrJG0QxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLfAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLfQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLfgxwEe6VPJ8qJDziPA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgTLfwxwEe6VPJ8qJDziPA" name="formaPagamento">
+      <modelElement href="estudodecaso.uml#_LrJt4AxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mgTLgAxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLgQxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mgTLggxwEe6VPJ8qJDziPA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mgTLgwxwEe6VPJ8qJDziPA" name="Reserva">
+      <modelElement href="estudodecaso.uml#_LdJuIAxwEe6VPJ8qJDziPA"/>
+      <keywords xmi:id="_mgTLhAxwEe6VPJ8qJDziPA" keyword="create"/>
+      <stereotypes xmi:id="_mgTLhQxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_LdKVMAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mgTLhgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mgTLhwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mgTLiAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LdKVMQxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mgTLiQxwEe6VPJ8qJDziPA" name="Reserva">
+          <modelElement href="estudodecaso.uml#_LdH48AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mVSOMAxwEe6VPJ8qJDziPA" name="EnderecoDao" associationsIn="_mUgyIAxwEe6VPJ8qJDziPA" associationsOut="_mUgyIAxwEe6VPJ8qJDziPA _mVRnIAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LbtjsAxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mVSOMQxwEe6VPJ8qJDziPA" position="34.0,1082.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mVSOMgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mVSOMwxwEe6VPJ8qJDziPA" name="listaEndereco" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq09wAxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_k4jtUAx3Ee6VPJ8qJDziPA" visible="false"/>
+      <stereotypes xmi:id="_mVSONAxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_Lq2L4AxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mVSONQxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq2y8AxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mVSONgxwEe6VPJ8qJDziPA" label="-"/>
+      <cardinality xmi:id="_mVSONwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mVSOOAxwEe6VPJ8qJDziPA" name="ArrayList">
+        <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mVSOOQxwEe6VPJ8qJDziPA" name="enderecoDao" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq4BEAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mVSOOgxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq4oIAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mVSOOwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOPAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mVSOPQxwEe6VPJ8qJDziPA" name="EnderecoDao">
+        <modelElement href="estudodecaso.uml#_LbtjsAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mVSOPgxwEe6VPJ8qJDziPA" name="getIntancia" staticOperation="true">
+      <modelElement href="estudodecaso.uml#_Lbx1IAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVSOPwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOQAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSOQQxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lmug4AxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSOQgxwEe6VPJ8qJDziPA" name="EnderecoDao">
+          <modelElement href="estudodecaso.uml#_LbtjsAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mVSOQwxwEe6VPJ8qJDziPA" name="listaEndereco">
+      <modelElement href="estudodecaso.uml#_Lb6YAAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mVSORAxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_Lb8NMAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mVSORQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSORgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSORwxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lp4ikAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSOSAxwEe6VPJ8qJDziPA" name="ArrayList">
+          <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mVSOSQxwEe6VPJ8qJDziPA" name="inserirEndereco">
+      <modelElement href="estudodecaso.uml#_LmvH8AxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVSOSgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOSwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSOTAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LmvvAQxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSOTQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mVSOTgxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_LmvvAAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mVSOTwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mVSOUAxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mVSOUQxwEe6VPJ8qJDziPA" name="deletarEndereco">
+      <modelElement href="estudodecaso.uml#_LmwWEAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVSOUgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOUwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSOVAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LmwWEgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSOVQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mVSOVgxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_LmwWEQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mVSOVwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mVSOWAxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mVSOWQxwEe6VPJ8qJDziPA" name="alterarEndereco">
+      <modelElement href="estudodecaso.uml#_Lmw9IAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVSOWgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOWwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSOXAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lmw9IgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSOXQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mVSOXgxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_Lmw9IQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mVSOXwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mVSOYAxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mVSOYQxwEe6VPJ8qJDziPA" name="consultarEndereco">
+      <modelElement href="estudodecaso.uml#_LmxkMAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVSOYgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOYwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSOZAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LmxkMgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSOZQxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mVSOZgxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_LmxkMQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mVSOZwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mVSOaAxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mVSOaQxwEe6VPJ8qJDziPA" name="verificarEndereco">
+      <modelElement href="estudodecaso.uml#_LmyLQAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mVSOagxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mVSOawxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mVSObAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LmyyUAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mVSObQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mVSObgxwEe6VPJ8qJDziPA" name="endereco">
+        <modelElement href="estudodecaso.uml#_LmyLQQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mVSObwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mVSOcAxwEe6VPJ8qJDziPA" name="Endereco">
+          <modelElement href="estudodecaso.uml#_Lcg08AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mX2aAAxwEe6VPJ8qJDziPA" name="FuncionarioDao" associationsIn="_mXPWAAxwEe6VPJ8qJDziPA" associationsOut="_mXPWAAxwEe6VPJ8qJDziPA _mXw6cAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LcC64AxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mX2aAQxwEe6VPJ8qJDziPA" position="567.0,1083.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mX2aAgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mX2aAwxwEe6VPJ8qJDziPA" name="listaFuncionario" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq52QAxwEe6VPJ8qJDziPA"/>
+      <visualProperties xmi:id="_k4kUYAx3Ee6VPJ8qJDziPA" visible="false"/>
+      <stereotypes xmi:id="_mX2aBAxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_Lq7EYAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mX2aBQxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq7EYQxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mX2aBgxwEe6VPJ8qJDziPA" label="-"/>
+      <cardinality xmi:id="_mX2aBwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mX2aCAxwEe6VPJ8qJDziPA" name="ArrayList">
+        <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mX2aCQxwEe6VPJ8qJDziPA" name="funcionarioDao" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq7EYgxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mX2aCgxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq7rcAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mX2aCwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aDAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mX2aDQxwEe6VPJ8qJDziPA" name="FuncionarioDao">
+        <modelElement href="estudodecaso.uml#_LcC64AxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mX2aDgxwEe6VPJ8qJDziPA" name="getIntancia" staticOperation="true">
+      <modelElement href="estudodecaso.uml#_LcEJAAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX2aDwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aEAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aEQxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm1OkAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aEgxwEe6VPJ8qJDziPA" name="FuncionarioDao">
+          <modelElement href="estudodecaso.uml#_LcC64AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mX2aEwxwEe6VPJ8qJDziPA" name="listaFuncionario">
+      <modelElement href="estudodecaso.uml#_LcF-MAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mX2aFAxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_LcHzYAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mX2aFQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aFgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aFwxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lp80AAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aGAxwEe6VPJ8qJDziPA" name="ArrayList">
+          <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mX2aGQxwEe6VPJ8qJDziPA" name="inserirFuncionario">
+      <modelElement href="estudodecaso.uml#_Lm1OkQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX2aGgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aGwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aHAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm11oQxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aHQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mX2aHgxwEe6VPJ8qJDziPA" name="funcionario">
+        <modelElement href="estudodecaso.uml#_Lm11oAxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mX2aHwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mX2aIAxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mX2aIQxwEe6VPJ8qJDziPA" name="alterarFuncionario">
+      <modelElement href="estudodecaso.uml#_Lm2csAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX2aIgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aIwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aJAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm2csgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aJQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mX2aJgxwEe6VPJ8qJDziPA" name="funcionario">
+        <modelElement href="estudodecaso.uml#_Lm2csQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mX2aJwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mX2aKAxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mX2aKQxwEe6VPJ8qJDziPA" name="loginFuncionario">
+      <modelElement href="estudodecaso.uml#_Lm3DwAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX2aKgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aKwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aLAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm3DwgxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aLQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mX2aLgxwEe6VPJ8qJDziPA" name="funcionario">
+        <modelElement href="estudodecaso.uml#_Lm3DwQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mX2aLwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mX2aMAxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mX2aMQxwEe6VPJ8qJDziPA" name="consulta">
+      <modelElement href="estudodecaso.uml#_Lm4R4AxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX2aMgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aMwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aNAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm4R4gxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aNQxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mX2aNgxwEe6VPJ8qJDziPA" name="funcionario">
+        <modelElement href="estudodecaso.uml#_Lm4R4QxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mX2aNwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mX2aOAxwEe6VPJ8qJDziPA" name="Funcionario">
+          <modelElement href="estudodecaso.uml#_LcowwAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mX2aOQxwEe6VPJ8qJDziPA" name="deletarFuncionario">
+      <modelElement href="estudodecaso.uml#_Lp8M8AxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mX2aOgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mX2aOwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mX2aPAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lp8M8gxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mX2aPQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mX2aPgxwEe6VPJ8qJDziPA" name="cpfFuncionario">
+        <modelElement href="estudodecaso.uml#_Lp8M8QxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mX2aPwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mX2aQAxwEe6VPJ8qJDziPA" name="Long">
+          <modelElement href="estudodecaso.uml#_Lp6-0QxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mr1tAAxwEe6VPJ8qJDziPA" name="ReservaDao" associationsIn="_mrAmkAxwEe6VPJ8qJDziPA" associationsOut="_mrAmkAxwEe6VPJ8qJDziPA _mrd5kAxwEe6VPJ8qJDziPA">
+    <modelElement href="estudodecaso.uml#_LcYSEAxwEe6VPJ8qJDziPA"/>
+    <visualProperties xmi:id="_mr1tAQxwEe6VPJ8qJDziPA" position="474.0,1441.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mr1tAgxwEe6VPJ8qJDziPA" label="+"/>
+    <attributes xmi:id="_mr1tAwxwEe6VPJ8qJDziPA" name="listaReserva" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_Lq-uwAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mr1tBAxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_Lq_V0AxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mr1tBQxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_Lq_84AxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mr1tBgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tBwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mr1tCAxwEe6VPJ8qJDziPA" name="ArrayList">
+        <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mr1tCQxwEe6VPJ8qJDziPA" name="reservaDao" staticAttribute="true">
+      <modelElement href="estudodecaso.uml#_LrAj8AxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mr1tCgxwEe6VPJ8qJDziPA" name="LegacyStyledElement">
+        <modelElement href="estudodecaso.uml#_LrAj8QxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mr1tCwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tDAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <type xmi:id="_mr1tDQxwEe6VPJ8qJDziPA" name="ReservaDao">
+        <modelElement href="estudodecaso.uml#_LcYSEAxwEe6VPJ8qJDziPA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mr1tDgxwEe6VPJ8qJDziPA" name="getIntancia" staticOperation="true">
+      <modelElement href="estudodecaso.uml#_LcY5IAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mr1tDwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tEAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mr1tEQxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lm_moAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mr1tEgxwEe6VPJ8qJDziPA" name="ReservaDao">
+          <modelElement href="estudodecaso.uml#_LcYSEAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mr1tEwxwEe6VPJ8qJDziPA" name="listaReserva">
+      <modelElement href="estudodecaso.uml#_LcauUAxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mr1tFAxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_Lcb8cAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mr1tFQxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tFgxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mr1tFwxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lp_3UAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mr1tGAxwEe6VPJ8qJDziPA" name="ArrayList">
+          <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mr1tGQxwEe6VPJ8qJDziPA" name="inserirReserva">
+      <modelElement href="estudodecaso.uml#_LnANsAxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mr1tGgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tGwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mr1tHAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LnA0wAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mr1tHQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mr1tHgxwEe6VPJ8qJDziPA" name="reserva">
+        <modelElement href="estudodecaso.uml#_LnANsQxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mr1tHwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mr1tIAxwEe6VPJ8qJDziPA" name="Reserva">
+          <modelElement href="estudodecaso.uml#_LdH48AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mr1tIQxwEe6VPJ8qJDziPA" name="deletarReserva">
+      <modelElement href="estudodecaso.uml#_LnA0wQxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mr1tIgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tIwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mr1tJAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LnBb0QxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mr1tJQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mr1tJgxwEe6VPJ8qJDziPA" name="reserva">
+        <modelElement href="estudodecaso.uml#_LnBb0AxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mr1tJwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mr1tKAxwEe6VPJ8qJDziPA" name="Reserva">
+          <modelElement href="estudodecaso.uml#_LdH48AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mr1tKQxwEe6VPJ8qJDziPA" name="alterarReserva">
+      <modelElement href="estudodecaso.uml#_LnCC4AxwEe6VPJ8qJDziPA"/>
+      <visibility xmi:id="_mr1tKgxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tKwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mr1tLAxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_LnCC4gxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mr1tLQxwEe6VPJ8qJDziPA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mr1tLgxwEe6VPJ8qJDziPA" name="reserva">
+        <modelElement href="estudodecaso.uml#_LnCC4QxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mr1tLwxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mr1tMAxwEe6VPJ8qJDziPA" name="Reserva">
+          <modelElement href="estudodecaso.uml#_LdH48AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mr1tMQxwEe6VPJ8qJDziPA" name="consultarReserva">
+      <modelElement href="estudodecaso.uml#_LnCp8AxwEe6VPJ8qJDziPA"/>
+      <stereotypes xmi:id="_mr1tMgxwEe6VPJ8qJDziPA" name="Generics">
+        <modelElement href="estudodecaso.uml#_LnD4EAxwEe6VPJ8qJDziPA"/>
+      </stereotypes>
+      <visibility xmi:id="_mr1tMwxwEe6VPJ8qJDziPA" label="+"/>
+      <cardinality xmi:id="_mr1tNAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mr1tNQxwEe6VPJ8qJDziPA">
+        <modelElement href="estudodecaso.uml#_Lp_QQAxwEe6VPJ8qJDziPA"/>
+        <type xmi:id="_mr1tNgxwEe6VPJ8qJDziPA" name="ArrayList">
+          <modelElement href="estudodecaso.uml#_LmrdkAxwEe6VPJ8qJDziPA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mr1tNwxwEe6VPJ8qJDziPA" name="reserva">
+        <modelElement href="estudodecaso.uml#_LnCp8QxwEe6VPJ8qJDziPA"/>
+        <cardinality xmi:id="_mr1tOAxwEe6VPJ8qJDziPA" label="1" max="1" min="1"/>
+        <type xmi:id="_mr1tOQxwEe6VPJ8qJDziPA" name="Reserva">
+          <modelElement href="estudodecaso.uml#_LdH48AxwEe6VPJ8qJDziPA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
